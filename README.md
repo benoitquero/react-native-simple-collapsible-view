@@ -5,7 +5,8 @@ A simple JS collapsible view for React Native
 ## Installation
 
 ```sh
-npm install --save react-native-simple-collapsible-view
+npm install --save react-native-simple-collapsible-view react-native-svg
+cd ios && pod install && cd ..
 ```
 
 ## Usage
