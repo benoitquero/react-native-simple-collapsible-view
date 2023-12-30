@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-collapsible-view",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A simple collapsible view for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -39,7 +39,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/benoitquero/react-native-simple-collapsible-view",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benoitquero/react-native-simple-collapsible-view.git"
+  },
   "author": "Benoit Quero <benquero2@hotmail.fr> (https://github.com/benoitquero)",
   "license": "MIT",
   "bugs": {
@@ -160,5 +163,9 @@
   "dependencies": {
     "react-native-svg": "^14.1.0",
     "yarn": "^1.22.21"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }
