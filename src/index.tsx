@@ -114,7 +114,6 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   container: {
-    backgroundColor: 'red',
     overflow: 'hidden',
   },
   titleContainer: {
